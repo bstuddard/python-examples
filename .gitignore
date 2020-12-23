@@ -1,0 +1,10 @@
+flask-api/.vscode/launch.json
+flask-api/.vscode/settings.json
+flask-api/.pylintrc
+flask-api/pbi/pbi_api_ml.pbix
+flask-api/python_logic/test_api.txt
+flask-api/python_logic/PA_Only/config.py
+flask-api/python_logic/testing.py
+seasonal-decomp/.pylintrc
+seasonal-decomp/.vscode/launch.json
+seasonal-decomp/.vscode/settings.json

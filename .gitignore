@@ -8,3 +8,5 @@ flask-api/python_logic/testing.py
 seasonal-decomp/.pylintrc
 seasonal-decomp/.vscode/launch.json
 seasonal-decomp/.vscode/settings.json
+requirements gen.txt
+seasonal-decomp/python-logic/__pycache__/helpers.cpython-38.pyc

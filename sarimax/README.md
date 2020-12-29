@@ -1,2 +1,2 @@
 ## Example and Blog Post
-For detailed writeup, see this [blog post](https://datastud.dev/posts/python-seasonality-how-to).
+For detailed writeup, see this [blog post](https://datastud.dev/posts/python-arima-how-to).

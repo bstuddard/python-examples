@@ -10,3 +10,7 @@ seasonal-decomp/.vscode/launch.json
 seasonal-decomp/.vscode/settings.json
 requirements gen.txt
 seasonal-decomp/python-logic/__pycache__/helpers.cpython-38.pyc
+sarimax/.pylintrc
+sarimax/.vscode/launch.json
+sarimax/.vscode/settings.json
+sarimax/python-logic/__pycache__/helpers.cpython-38.pyc

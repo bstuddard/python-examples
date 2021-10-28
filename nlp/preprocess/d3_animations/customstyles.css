@@ -1,0 +1,56 @@
+.title-wrapper {
+    width: 750px;
+    display: block;
+    height: auto;
+    overflow: auto;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1, h2, h5 {
+    color: #4c72b0;
+    font-family: Franklin Gothic;
+    padding-left: 25px;
+    
+}
+
+h1, h2 {
+    margin-top: 15px;
+    line-height: 0.1em;
+}
+
+h5 {
+    line-height: 0.0em;
+    margin: 1.75em;
+}
+
+.border {
+    border-top: 1px;
+    border-color: rgba(154, 43, 34, 0.5);
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 750px;
+}
+
+.left-title {
+    text-align: left;
+    float: left;
+}
+
+.right-title {
+    text-align: right;
+    float: right;
+}
+
+.axis_ticks, .axis_text {
+    color: #ae1e2f;
+    font-size: 0.7em;
+    font-family: Franklin Gothic;
+}
+
+.axis_text {
+    fill: #ae1e2f;
+    font-size: 0.8em;
+}

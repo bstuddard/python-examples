@@ -15,3 +15,4 @@ sarimax/.vscode/launch.json
 sarimax/.vscode/settings.json
 sarimax/python-logic/__pycache__/helpers.cpython-38.pyc
 hyperparameter-optimization/optuna/catboost_info/*
+nlp/preprocess/.vector_cache/*

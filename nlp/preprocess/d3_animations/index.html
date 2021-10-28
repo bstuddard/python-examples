@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sample Chart</title>
+        <meta charset="utf-8">
+        <script src='https://d3js.org/d3.v5.min.js'></script>
+        <link rel="stylesheet" type="text/css" href="customstyles.css">
+        
+    </head>
+    <body>
+        <div class="title-wrapper">
+            <h1 class="left-title" id="title">Text Preprocessing</h1>
+        </div>
+
+        <!--Placeholder for d3 -->
+        <div id="wrapper"></div>
+
+        <!--Notes Footer-->
+        <div>
+            <hr class="border">
+            <h5><i>Notes</i></h5>
+            <h5>[1] White text shows words not affected by the preprocessing transformation.</h5>
+            <h5>[2] Red text shows which words were affected by the transformation.</h5> 
+        </div>
+
+        <!--Dependencies-->
+        <script src="./helpers/dimension.js"></script>
+        <script src="./helpers/structure_builders.js"></script>
+        <script src="./helpers/chart.js"></script>
+        <script src="./stem.js"></script>
+    </body>
+</html>

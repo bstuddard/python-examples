@@ -16,3 +16,9 @@ sarimax/.vscode/settings.json
 sarimax/python-logic/__pycache__/helpers.cpython-38.pyc
 hyperparameter-optimization/optuna/catboost_info/*
 nlp/preprocess/.vector_cache/*
+connect-four/__pycache__/*
+connect-four/src/__pycache__/*
+connect-four/web/config.py
+connect-four/*
+boosted-tree-time-series/data/*
+boosted-tree-time-series/catboost_info

@@ -22,3 +22,4 @@ connect-four/web/config.py
 connect-four/*
 boosted-tree-time-series/data/*
 boosted-tree-time-series/catboost_info
+time-series-eda/data/*

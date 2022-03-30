@@ -23,3 +23,4 @@ connect-four/*
 boosted-tree-time-series/data/*
 boosted-tree-time-series/catboost_info
 time-series-eda/data/*
+boosted-tree-time-series/*

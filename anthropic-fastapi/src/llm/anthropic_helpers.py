@@ -6,8 +6,23 @@ from anthropic import AsyncAnthropic
 ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
 
 
-async def test_anthropic_stream_api_call(user_prompt_text) -> AsyncGenerator[str, None]:
-    system_prompt_text = 'You are an AI agent.' # Change here as needed or do something like await get_system_prompt() if dynamic
+async def anthropic_stream_api_call(chat_input_list: list) -> AsyncGenerator[str, None]:
+    system_prompt_text = 'You are an AI agent.'
+
+    # Build message list
+    message_input = []
+    for chat_instance in chat_input_list:
+        print(chat_instance)
+        
+        message_input.append({
+            'role': chat_instance['role'], 
+            "content": [
+                {
+                    "type": "text",
+                    "text": chat_instance['message']
+                }
+            ]
+        })
 
     # Setup and make api call.
     client = AsyncAnthropic(api_key=ANTHROPIC_API_KEY)
@@ -15,17 +30,7 @@ async def test_anthropic_stream_api_call(user_prompt_text) -> AsyncGenerator[str
         model="claude-3-haiku-20240307",
         max_tokens=2000,
         system=system_prompt_text,
-        messages=[
-            {
-                "role": "user", 
-                "content": [
-                    {
-                        "type": "text",
-                        "text": user_prompt_text
-                    }
-                ]
-            }
-        ],
+        messages=message_input,
         stream=True
     )
 

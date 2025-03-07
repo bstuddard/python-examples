@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+@theme {
+    --font-sans: "Nunito Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}

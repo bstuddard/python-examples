@@ -36,14 +36,14 @@ ANTHROPIC_API_KEY=your_api_key_here
 ```
 
 ## Project Structure
-src/
-   pydantic_stream_example.py # Main Pydantic AI streaming implementation
-   base_stream_example.py # Base API streaming example
-   schemas.py # Data models and schemas
-scripts/
-   base_model_test.ipynb # Base model testing notebook
-   pydantic_ai_base_test.ipynb # Pydantic AI testing notebook
-requirements.txt # Project dependencies
+- src/
+   - pydantic_stream_example.py # Main Pydantic AI streaming implementation
+   - base_stream_example.py # Base API streaming example
+   - schemas.py # Data models and schemas
+- scripts/
+   - base_model_test.ipynb # Base model testing notebook
+   - pydantic_ai_base_test.ipynb # Pydantic AI testing notebook
+- requirements.txt # Project dependencies
 
 ## Key Components
 

@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+gunicorn
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+aioodbc
+python-multipart
+tenacity
+pandas
+pytz
+slowapi
+sendgrid
+anthropic
+langchain[anthropic]
+sentence-transformers
+pydantic-ai[logfire]

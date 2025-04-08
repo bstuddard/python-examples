@@ -26,3 +26,10 @@ time-series-eda/data/*
 boosted-tree-time-series/demo.ipynb
 boosted-tree-time-series/data_download.ipynb
 boosted-tree-time-series/*
+.env
+pydantic-ai-streaming/.env
+pydantic-ai-streaming/.vscode/*
+pydantic-ai-streaming/.vscode/
+__pycache__/
+*.py[cod]
+*$py.class

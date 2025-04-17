@@ -33,3 +33,6 @@ pydantic-ai-streaming/.vscode/
 __pycache__/
 *.py[cod]
 *$py.class
+simple-mcp-example/.env
+simple-mcp-example/.vscode/*
+simple-mcp-example/.vscode/

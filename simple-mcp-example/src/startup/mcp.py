@@ -1,6 +1,7 @@
 from src.build_mcp.create_mcp import *
 from src.startup.app import app
 from mcp.server.sse import SseServerTransport
+from pydantic_ai.mcp import MCPServerHTTP
 from starlette.routing import Mount
 from fastapi import Request
 
@@ -23,3 +24,7 @@ async def handle_sse(request: Request) -> None:
             streams[1],
             mcp._mcp_server.create_initialization_options(),
         )
+
+# Setup mcp server objects for pydantic
+pydantic_mcp_server = MCPServerHTTP(url='http://127.0.0.1:8000/sse')
+pydantic_mcp_servers = [pydantic_mcp_server]

@@ -27,11 +27,12 @@ async def interact_with_mcp():
                 tools = await session.list_tools()
                 print("Available tools:", tools)
 
-                # 2. Call the add tool
-                print("Calling add tool...")
-                result = await session.call_tool("add", arguments={"a": 5, "b": 3})
-                print("5 + 3 =", result)
+                # 2. Call the greet tool
+                print("Calling get name tool...")
+                result = await session.call_tool("get_user_name")
+                print("Get name", result)
 
+                """
                 # 3. List available resources
                 print("Listing resources...")
                 resources = await session.list_resources()
@@ -41,6 +42,7 @@ async def interact_with_mcp():
                 print("Reading greeting resource...")
                 content, mime_type = await session.read_resource("greeting://Alice")
                 print("Greeting:", content)
+                """
     except Exception as e:
         print(f"Error occurred: {str(e)}")
         raise

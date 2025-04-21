@@ -4,15 +4,10 @@ from mcp.server.fastmcp import FastMCP
 mcp = FastMCP("Demo")
 
 
-# Add an addition tool
 @mcp.tool()
-def add(a: int, b: int) -> int:
-    """Add two numbers"""
-    return a + b
+async def get_user_name() -> str:
+    """
+    This function is used to retrieve the user name.
+    """
+    return "Joe"  # Note: this would be dynamically retrieved in an actual app
 
-
-# Add a dynamic greeting resource
-@mcp.resource("greeting://{name}")
-def get_greeting(name: str) -> str:
-    """Get a personalized greeting"""
-    return f"Hello, {name}!"

@@ -36,3 +36,8 @@ __pycache__/
 simple-mcp-example/.env
 simple-mcp-example/.vscode/*
 simple-mcp-example/.vscode/
+astro-svelte-frontend/noce_modules
+astro-svelte-frontend/noce_modules/*
+astro-svelte-frontend/.env
+astro-svelte-frontend/.vscode/*
+astro-svelte-frontend/.vscode

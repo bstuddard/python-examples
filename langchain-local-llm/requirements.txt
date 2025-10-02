@@ -1,0 +1,10 @@
+jupyter
+langchain
+langgraph
+transformers
+numpy
+tqdm
+langchain-community
+torch
+torchvision
+torchaudio

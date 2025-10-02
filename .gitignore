@@ -41,3 +41,4 @@ astro-svelte-frontend/noce_modules/*
 astro-svelte-frontend/.env
 astro-svelte-frontend/.vscode/*
 astro-svelte-frontend/.vscode
+langchain-local-llm/models/*

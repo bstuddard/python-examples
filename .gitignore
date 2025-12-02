@@ -42,3 +42,5 @@ astro-svelte-frontend/.env
 astro-svelte-frontend/.vscode/*
 astro-svelte-frontend/.vscode
 langchain-local-llm/models/*
+streamlit-chat-template/
+synthetic-control/
